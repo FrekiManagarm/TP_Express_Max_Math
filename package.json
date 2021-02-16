@@ -1,0 +1,22 @@
+{
+  "name": "tp_express_max_math",
+  "version": "1.0.0",
+  "description": "TPExpress Ynov 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrekiManagarm/TP_Express_Max_Math.git"
+  },
+  "author": "Maxime Blay, Mathieu Chambaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrekiManagarm/TP_Express_Max_Math/issues"
+  },
+  "homepage": "https://github.com/FrekiManagarm/TP_Express_Max_Math#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
