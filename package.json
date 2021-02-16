@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/FrekiManagarm/TP_Express_Max_Math#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "sequelize": "^6.5.0"
   }
 }
