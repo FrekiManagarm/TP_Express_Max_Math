@@ -2,7 +2,7 @@
   "name": "tp_express_max_math",
   "version": "1.0.0",
   "description": "TPExpress Ynov 2021",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "npm test",
     "start": "nodemon ./index.js",
