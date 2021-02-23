@@ -1,5 +1,11 @@
 const router = require('express').Router();
+const expr = require('express');
 const gamePlayer = require('./game/player.js');
+
+const app = expr();
+
+app.set("view engine", "ejs");
+
 
 router.get('/', (req, res, next) => {
   console.log("dans games");
