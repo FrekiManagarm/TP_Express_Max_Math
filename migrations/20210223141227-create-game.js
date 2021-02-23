@@ -15,7 +15,11 @@ module.exports = {
         type: Sequelize.STRING
       },
       currentPlayerId: {
-        type: Sequelize.NUMBER
+        type: Sequelize.NUMBER,
+        references: {
+          model: "GamePlayer",
+          key: "id"
+        }
       },
       status: {
         type: Sequelize.STRING
