@@ -9,10 +9,18 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       playerId: {
-        type: Sequelize.NUMBER
+        type: Sequelize.NUMBER,
+        references: {
+          model: 'Player',
+          key: 'id'
+        }
       },
       gameId: {
-        type: Sequelize.NUMBER
+        type: Sequelize.NUMBER,
+        references: {
+          model: 'Game',
+          key: 'id'
+        }
       },
       remainingShots: {
         type: Sequelize.NUMBER
