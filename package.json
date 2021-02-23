@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/FrekiManagarm/TP_Express_Max_Math#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
     "inquirer": "^7.3.3",
     "mongodb": "^3.6.4",
