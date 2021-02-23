@@ -12,12 +12,12 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       GameShot.belongsTo(Game, {
         foreignKey: {
-          allowNull: false;
+          allowNull: false,
         }
       })
       GameShot.belongsTo(Player, {
         foreignKey: {
-          allowNull: false;
+          allowNull: false,
         }
       })
     }
