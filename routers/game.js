@@ -6,13 +6,13 @@ router.get('/', (req, res, next) => {
   res.send("dans games");
 });
 
+router.post('/', (req, res, next) => {
+  res.send('POST /games');
+});
+
 router.get('/new', (req, res, next) => {
   console.log("/games/new");
   res.send('/games/new');
-});
-
-router.post('/', (req, res, next) => {
-  res.send('POST /games');
 });
 
 router.get('/:id', (req, res, next) => {
