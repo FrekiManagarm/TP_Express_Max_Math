@@ -1,5 +1,9 @@
+var bodyParser = require('body-parser');
 const expr = require('express');
 var app = expr();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:true}));
 
 app.use(require('./router'));
 
