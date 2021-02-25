@@ -17,7 +17,6 @@ router.post('/', async(req, res, next) => {
   } catch (e) {
 
   }
-  res.send('POST /players');
 });
 
 router.get('/new', async(req, res, next) => {
