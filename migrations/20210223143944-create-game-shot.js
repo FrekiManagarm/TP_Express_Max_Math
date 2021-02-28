@@ -18,7 +18,7 @@ module.exports = {
       playerId: {
         type: Sequelize.NUMBER,
         references: {
-          model: "Player",
+          model: "GamePlayer",
           key: "id"
         }
       },
