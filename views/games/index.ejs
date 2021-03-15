@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket - Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../index.css">
+</head>
+<body>
+    <nav>
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo">TP Express</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="/views/Tour du monde/Home.ejs" class="nav-links">Tour du monde</a>
+            </li>
+            <li>
+                <a href="/views/301/Home.ejs" class="nav-links">301</a>
+            </li>
+            <li>
+                <a href="/views/Cricket/Home.ejs" class="nav-links">Cricket</a>
+            </li>
+        </ul>
+    </nav>
+    <script>
+        let mainNav = document.getElementById('js-menu');
+
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+            mainNav.classList.toggle('active')
+        });
+    </script>
+</body>
+</html>

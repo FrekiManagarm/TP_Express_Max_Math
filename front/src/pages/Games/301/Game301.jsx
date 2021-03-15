@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import axios from 'axios';
 
-const DartGame = () => {
+const Game301 = () => {
     return (
         <div>
             
@@ -9,4 +9,4 @@ const DartGame = () => {
     )
 }
 
-export default DartGame
+export default Game301
